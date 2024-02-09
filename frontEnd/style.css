@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: gray;
+    font-family: Arial, sans-serif;
+  }
+
+  main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    background-color: white;
+    width: 80%;
+    max-width: 400px; /* Limit maximum width for larger screens */
+    border-radius: 16px;
+    box-shadow: 6px 2px 28px black;
+  }
+
+  .card .header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card .header h1 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .card .header p {
+    color: grey;
+    font-size: 14px;
+  }
+
+  .content {
+    padding: 0 20px; /* Add padding to content */
+  }
+
+  .content .title {
+    margin-top: 20px;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .content .information {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .card .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .card .footer button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .card .footer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .card .footer p u {
+    color: blue;
+    cursor: pointer;
+  }
